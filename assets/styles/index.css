@@ -28,8 +28,6 @@ body {
 /* -----------------------------------FOOTER-------------------------------------- */
 
 .footer-nav {
-    visibility: hidden;
-    opacity: 0;
     height: 96px;
     display: flex;
     align-items: center;
@@ -39,12 +37,6 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-.animation-footer {
-    visibility: visible;
-    opacity: 1;
-    transform: translateX(0px);
-    transition-delay: 0.9s;
-}
 
 
 footer ul {
