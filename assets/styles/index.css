@@ -23,6 +23,31 @@ body {
     margin-inline: auto;
 }
 
+/* --------------------------------------HEADER----------------------------------------- */
+
+header {
+    height: 96px;
+    background-color: #00acee;
+    color: #f0f2f4;
+    display: flex;
+}
+
+header>div {
+
+    flex-direction: column;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li+li {
+    margin-left: 5px;
+}
+
+
+
 
 
 /* -----------------------------------FOOTER-------------------------------------- */
