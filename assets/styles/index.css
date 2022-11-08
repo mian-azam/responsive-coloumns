@@ -33,18 +33,34 @@ header {
 }
 
 header>div {
-
-    flex-direction: column;
-}
-
-nav ul {
-    display: flex;
     flex-direction: row;
 }
 
-nav ul li+li {
+div ul {
+    text-align: right;
+}
+
+div ul li {
+    display: inline;
+}
+
+div ul li+li {
     margin-left: 5px;
 }
+
+
+/* -------------------------------------MAIN CONTENT----------------------------------- */
+
+.toyota>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.cars>div {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
