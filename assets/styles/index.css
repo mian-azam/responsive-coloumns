@@ -86,6 +86,7 @@ main {
 
 .cars>div {
     width: 25%;
+    height: 200px;
     display: inline;
 }
 
