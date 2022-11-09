@@ -61,6 +61,11 @@ header {
     font-size: 26px;
 }
 
+.box-two ul li a {
+    text-decoration: none;
+    color: #3a434d;
+}
+
 .box-two ul li+li {
     margin-left: 10px;
 
@@ -70,15 +75,18 @@ header {
 
 
 /* -------------------------------------MAIN CONTENT----------------------------------- */
+main {
+    height: calc(100vh - 148px);
+}
 
-.toyota>div {
+.cars {
     display: flex;
-    flex-direction: column;
+    width: 100%;
 }
 
 .cars>div {
-    display: flex;
-    flex-direction: column;
+    width: 25%;
+    display: inline;
 }
 
 
