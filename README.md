@@ -1,2 +1,2 @@
 # responsive-coloumns
-click [here]() to see the project.
+click [here](https://mian-azam.github.io/responsive-coloumns/) to see the project.
