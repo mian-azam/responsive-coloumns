@@ -76,7 +76,7 @@ header {
 /* ----------------------------------HERO BANNER---------------------------------------- */
 
 .hero-banner {
-    height: 50vh;
+    height: 75vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -110,7 +110,7 @@ div .cars {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 
