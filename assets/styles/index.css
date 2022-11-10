@@ -47,6 +47,10 @@ header {
     text-align: left;
 }
 
+.box-one h1 {
+    font-size: 30px;
+}
+
 .box-two {
 
     text-align: right;
@@ -84,9 +88,11 @@ main {
     width: 100%;
 }
 
+
+
 .cars>div {
     width: 25%;
-    height: 200px;
+    height: 240px;
     display: inline;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;
 }
@@ -156,4 +162,34 @@ footer ul li a {
 
 .linkedin:hover {
     color: #0e76a8;
+}
+
+/* ----------------------------------------------- */
+/*               Media quiries                     */
+/* ----------------------------------------------- */
+
+@media screen and (max-width: 760px) {
+    .box-two ul {
+        padding: 14px 0;
+    }
+
+    .box-two ul li {
+        font-size: 16px;
+    }
+
+    .cars {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .box-one h1 {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+
+    .box-two {
+        visibility: hidden;
+    }
 }
