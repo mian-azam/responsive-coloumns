@@ -80,26 +80,35 @@ header {
 
 /* -------------------------------------MAIN CONTENT----------------------------------- */
 main {
-    height: calc(100vh - 148px);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.cars {
-    display: flex;
+div .cars {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
 }
+
+
+
+div .car {
+    width: calc(25% - 7.5px);
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+}
+
 
 
 
 .cars>div {
-    width: 25%;
-    height: 240px;
-    display: inline;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;
 }
 
-.cars div+div {
-    margin-left: 10px;
-}
 
 img {
     width: 100%;
@@ -117,6 +126,7 @@ img {
 /* -----------------------------------FOOTER-------------------------------------- */
 
 footer {
+    margin-top: auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0px -26px 30px -10px, rgba(0, 0, 0, 0.1) 0px -16px 10px -10px;
 
 }
@@ -177,9 +187,10 @@ footer ul li a {
         font-size: 16px;
     }
 
-    .cars {
-        width: 50%;
+    div .car {
+        width: calc(50% - 15px);
     }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -191,5 +202,9 @@ footer ul li a {
 
     .box-two {
         visibility: hidden;
+    }
+
+    div .car {
+        width: 100%;
     }
 }
