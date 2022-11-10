@@ -118,14 +118,14 @@ div .cars {
 
 div .car {
     width: calc(25% - 7.5px);
-    height: 280px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
 div .car p {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
